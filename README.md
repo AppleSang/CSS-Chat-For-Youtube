@@ -1,5 +1,5 @@
 > # English
-# Circle Round Chat CSS
+# Lumbo Chat CSS
 Make your chat box in OBS beautiful and more circle
 
 ## Installation
@@ -22,7 +22,7 @@ Copy content from [CSS](https://github.com/AppleSang/CSS-Chat-For-Youtube/blob/m
 
 -----------------------------
 > # Tiếng Việt 
-# Circle Round Chat CSS
+# Lumbo Chat CSS
 Làm Cái Chat Box Của Bạn Trong CSS Đẹp Hơn Và Nhiều Vòng Tròn Hơn 
 ## Cài Đặt 
 
