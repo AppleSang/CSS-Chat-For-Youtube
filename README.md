@@ -19,6 +19,9 @@ Copy content from [CSS](https://github.com/AppleSang/CSS-Chat-For-Youtube/blob/m
 ](https://twitter.com/Revernry)
 - Emoji From [desmondvu](https://www.twitch.tv/desmondvu)
 - Background From [Iridescent - NerdOrDie](https://nerdordie.com/product/iridescent-stream-pack)
+-----------------------------
+> Demo Chat CSS From [Chat Dummy](https://rzytblc.netlify.app/)
+![image](https://github.com/user-attachments/assets/4b3333a9-e825-4fef-97e9-0b908ced6cc2)
 
 -----------------------------
 > # Tiếng Việt 
@@ -33,6 +36,7 @@ Cứ Copy Hết Từ Trong File [CSS](https://github.com/AppleSang/CSS-Chat-For-
 
 ## Cách Sử Dụng / Tinh Chỉnh
 **Tôi bị lười, sẽ có thôi**
+
 
 
 ## Credit
