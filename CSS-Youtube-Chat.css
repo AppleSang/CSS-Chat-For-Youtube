@@ -35,8 +35,10 @@
       /* SuperSticker Config */
       --SuperSticker-Name: #f7f70a;
       --SuperSticker-Price: #c934eb;
-      --SuperSticker-BG-Box: url("");
+      --SuperSticker-BG-Box: url(""); /* Insert Background Box When Have SuperSticker */
       --SuperSticker-BG-Emote: url("https://github.com/AppleSang/CSS-Chat-For-Youtube/raw/refs/heads/main/asset/Crimson.webp");
+      --SuperSticker-Text-Box: "Thanks";
+      --SuperSticker-Emoji: url("https://cdn.7tv.app/emote/01GTCDFS3R000FNKGF7EZAQKYW/4x.avif");
       /* Membership-Gift Config */
       --MB-Sub-Color-Text: #0cf22b;
       --MB-Sub-Text: "Thanks!";
@@ -256,6 +258,7 @@
     yt-live-chat-paid-message-renderer #header {
       padding-left: 4px !important;
       padding-right: 4px !important;
+      color: transparent;
     }
     yt-live-chat-text-message-renderer {
       margin-top: 10px !important;
@@ -921,9 +924,7 @@
       }
     }
     yt-live-chat-paid-sticker-renderer #card #sticker {
-      background-color: var(
-        --yt-live-chat-paid-sticker-chip-background-color
-      ) !important;
+      background-color: var( --yt-live-chat-paid-sticker-chip-background-color) !important;
       z-index: -999;
       padding: 10px;
       border-radius: 10px;
@@ -955,11 +956,38 @@
       padding-bottom: 70px !important;
       border-radius: 10px 6px 10px 6px;
     }
-
+    yt-live-chat-paid-sticker-renderer #card::after {
+      content: "";
+      position: absolute;
+      top: 10px; 
+      right: 10px;
+      width: 100px;
+      height: 100px;
+      background-image: var(--SuperSticker-Emoji);
+      background-size: cover;
+      background-repeat: no-repeat;
+      z-index: 9999;
+      pointer-events: none;
+}
+  
     yt-live-chat-paid-sticker-renderer #sticker {
        background: 
           var(--SuperSticker-BG-Emote) center center/cover no-repeat,
           linear-gradient(270deg,rgba(0, 43, 255, 1) 0%, rgba(29, 243, 250, 1) 75%);
+       position: relative;
+    }
+    yt-live-chat-paid-sticker-renderer #sticker::after {
+      z-index: 99999;
+      position: absolute;
+      right: -700px;
+      top: -30px;
+      content: var(--SuperSticker-Text-Box);
+      transform: rotate(356deg);
+      font-size: 66;
+      font-family: Ephesis;
+      white-space: nowrap;
+      filter: drop-shadow(11px 11px 11px #000000);
+      color: purple;
     }
     yt-live-chat-paid-sticker-renderer #author-name {
       color: var(--SuperSticker-Name) !important;
