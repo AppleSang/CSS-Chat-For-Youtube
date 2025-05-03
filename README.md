@@ -2,8 +2,6 @@
 # Lumbo Chat CSS
 Make your chat box in OBS beautiful and more circle
 
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
 
 ## Installation
 
