@@ -2,6 +2,9 @@
 # Lumbo Chat CSS
 Make your chat box in OBS beautiful and more circle
 
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
 ## Installation
 
 Copy content from [CSS](https://github.com/AppleSang/CSS-Chat-For-Youtube/blob/main/CSS-Youtube-Chat.css) to OBS chat box.
